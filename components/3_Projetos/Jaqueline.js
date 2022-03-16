@@ -1,21 +1,29 @@
 import Link from 'next/link';
 import { AiOutlineRightCircle } from 'react-icons/ai';
-import { ImgJa } from './ImgJa';
+import Image from 'next/dist/client/image';
 
 const Jaqueline = () => (
     
     <>  
-    <ImgJa>
+    <Image 
+      src="/jaqueline.jpg"
+      width={400} 
+      height={197}
+      /> 
         
-        <button type="button" style={{position: "absolute", bottom: "50%"}}>
+        
+            
+        </>  
+)
+
+export default Jaqueline;
+
+/*
+<button type="button" style={{position: "relative", bottom: "40%", left: "100px", height: "20px" }}>
             <Link href="https://jaquelinepsicologa.com.br/">
             <a>
                 Psicóloga Jaqueline <AiOutlineRightCircle/>
             </a>
             </Link>
             </button>
-            </ImgJa>
-        </>  
-)
-
-export default Jaqueline;
+            */
