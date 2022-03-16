@@ -1,18 +1,19 @@
 import Link from 'next/link';
-import { AiOutlineRightCircle } from 'react-icons/ai';
 import Image from 'next/dist/client/image';
 
 const LeiteCapri = () => (
     
     <>  
-    
+    <Link href="https://leitecapri.com.br" >
+    <a style={{margin: "0"}}>
     <Image 
       src="/leitecapri.jpg"
       width={400} 
       height={197}
       style={{}}
       /> 
- 
+    </a>
+    </Link>
             
             
         </>  
@@ -29,4 +30,6 @@ export default LeiteCapri;
             </a>
             </Link>
             </button>
+
+            import { AiOutlineRightCircle } from 'react-icons/ai';
             */

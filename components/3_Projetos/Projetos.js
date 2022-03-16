@@ -21,7 +21,7 @@ const Projetos = () => (
 
     </StyledSites>
     </StyledProjects>
-    <br/>
+    <br/> <br/>
     </>
 );
 

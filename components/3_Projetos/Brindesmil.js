@@ -6,13 +6,15 @@ import Image from 'next/dist/client/image';
 const Brindesmil = () => (
     
     <>  
-    
+    <Link href="https://brindesmil.com.br" >
+    <a style={{margin: "0"}}>
       <Image 
       src="/brindesmil.jpg"
       width={400} 
       height={197}
       /> 
-
+      </a>
+    </Link>
             
         </>  
 )
