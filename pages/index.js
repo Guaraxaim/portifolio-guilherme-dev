@@ -1,7 +1,10 @@
 import Head from 'next/head';
-import Header from '../components/Header/Header';
+import Header from '../components/1_Header/Header';
 import GlobalStyles  from '../components/GlobalStyles';
-import Sobre from '../components/Sobre/Sobre';
+import Sobre from '../components/2_Sobre/Sobre';
+import Projetos from '../components/3_Projetos/Projetos';
+import Tecnologias from '../components/4_Tecnologias/Tecnologias';
+import Footer from '../components/5_Footer/Footer';
 
 export default function Home() {
   return (
@@ -18,11 +21,15 @@ export default function Home() {
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
           <link rel="icon" href="/favicon.ico" />
+          
         </Head>
 
         
         <Header />
         <Sobre />
+        <Projetos />
+        <Tecnologias />
+        <Footer />
 
     </div>
   )

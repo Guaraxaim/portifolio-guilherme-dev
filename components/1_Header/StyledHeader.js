@@ -12,7 +12,7 @@ export const StyledHeader = styled.div`
     } 
 
     span {
-        align-items: center;
+        //align-items: center;
     }
 `
 export const Div1 = styled.div`
