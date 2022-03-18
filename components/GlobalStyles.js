@@ -16,7 +16,7 @@ a {
   align-items: center;
 } 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #38e8d6;
 }
 

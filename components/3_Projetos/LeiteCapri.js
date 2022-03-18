@@ -8,9 +8,10 @@ const LeiteCapri = () => (
     <a style={{margin: "0"}}>
     <Image 
       src="/leitecapri.jpg"
+
       width={400} 
       height={197}
-      style={{}}
+      alt="Leite Capri"
       /> 
     </a>
     </Link>
