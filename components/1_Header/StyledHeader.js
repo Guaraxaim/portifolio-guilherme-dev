@@ -19,6 +19,9 @@ export const Div1 = styled.div`
     display: inline-flex;
     flex-direction: row;
     right: auto;
+    @media(max-width: 700px) {
+        display: none;
+      }
 
 `
 export const Div2 = styled.div`

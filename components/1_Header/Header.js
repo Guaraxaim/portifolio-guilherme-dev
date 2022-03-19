@@ -5,11 +5,11 @@ import { BsLayersFill } from "react-icons/bs";
 const Header = () => (
     <>
     <StyledHeader >
-    <main className="container">
+    <nav className="container">
         <Div1> 
             
                 <Link href="/">
-                    <a style={{display: "flex", alignItems: "center"}}><BsLayersFill size="1.5rem" color="#38e8d6"/> <span>Portifólio</span></a>
+                    <a style={{display: "flex", alignItems: "center"}}><BsLayersFill size="1rem" color="#38e8d6"/> <span>Portifólio</span></a>
                 </Link>
 
         </Div1>
@@ -25,7 +25,7 @@ const Header = () => (
                 </Link>
             
         </Div2>
-        </main>
+        </nav>
     </StyledHeader>
     </>
 

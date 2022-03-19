@@ -14,6 +14,7 @@ a {
   padding: 10x;
   margin: 10px 40px;
   align-items: center;
+
 } 
 h1 {
   font-size: 3rem;
@@ -33,6 +34,7 @@ h3 {
 }
 span {
   padding: 10px;
+  margin-right: 10px;
 }
 
 * {
@@ -63,6 +65,7 @@ button {
   margin: 0 auto;
   max-width: 85rem; // 1rem =16px
   padding: 01 rem;
+  justify-content: space-between;
   @media(max-width: 1450px) {
     max-width: 70rem;
   }
