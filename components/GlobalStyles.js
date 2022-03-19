@@ -6,6 +6,12 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: #11172b;
   height: 100vh; // resposividade
+  @media(max-width: 700px) {
+    margin: 5px;
+  }
+  @media(max-width: 1000px){
+    margin: 5px;
+  }
 }
 
 a {
@@ -25,7 +31,7 @@ h2 {
     color: #38e8d6;
     font-size: xx-large;
     font-family: 'Montserrat', sans-serif;
-    
+    max-width: 1040px;
 }
 
 h3 {
@@ -41,7 +47,7 @@ span {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  max-width: 1040px;
+  //max-width: 1040px;
   margin: 0 auto;     
  }
 
@@ -67,10 +73,10 @@ button {
   padding: 01 rem;
   justify-content: space-between;
   @media(max-width: 1450px) {
-    max-width: 70rem;
+    //max-width: 70rem;
   }
   @media(max-width: 1000px){
-    max-width: 50rem;
+    //max-width: 50rem;
   }
   @media(max-width: 700px) {
     padding: 0 2rem;

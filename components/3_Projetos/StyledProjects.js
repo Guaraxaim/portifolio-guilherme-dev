@@ -8,6 +8,7 @@ export const StyledProjects = styled.section`
     position: relative;
     grid-template-columns: 1fr 1fr;
     box-sizing: content-box;
+    max-width: 1040px;
 
     >section {
         width: 50rem; // 50rem

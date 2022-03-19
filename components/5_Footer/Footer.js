@@ -1,10 +1,12 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { Div1 } from "../1_Header/StyledHeader";
 import Link from 'next/link';
+import { StyledFooter } from "./StyledFooter";
 
 const Footer = () => (
      
     <>
+    <StyledFooter>
      <h2>Vamos trabalhar juntos?</h2>
      <p>Entre em contato comigo, será um grande prazer marcarmos um conversa.</p>
      <div style={{textAlign: "center", margin: "auto"}}> 
@@ -16,6 +18,7 @@ const Footer = () => (
     </Link>
     <br/>
     </div>
+    </StyledFooter>
      </>
  ) 
 
