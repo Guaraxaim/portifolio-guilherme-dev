@@ -4,7 +4,7 @@ const Sobre = () => (
 
     <StyledHero>
         <br />
-        <img src="GuilhermeS.jpg" />
+        <img src="dev.png" />
         <br />
         <h3> Guilherme Santos </h3> <br />
         <h1> Desenvolvedor Web</h1>
