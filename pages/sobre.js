@@ -1,10 +1,8 @@
 import Head from 'next/head';
 import Header from '../components/1_Header/Header';
-import GlobalStyles from '../components/GlobalStyles';
+import { Div_sobre } from '../components/Div_sobre';
 import Sobre from '../components/2_Sobre/Sobre';
-import Projetos from '../components/3_Projetos/Projetos';
-import Tecnologias from '../components/4_Tecnologias/Tecnologias';
-import Footer from '../components/5_Footer/Footer';
+
 
 export default function sobre() {
     return (
